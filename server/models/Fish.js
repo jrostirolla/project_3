@@ -10,7 +10,9 @@ const fishSchema = new Schema({
         type: Boolean,
     },
     compatible: [{
-        type
+        name: {
+            type: String
+        }
     }],
     temp: {
         type: String,

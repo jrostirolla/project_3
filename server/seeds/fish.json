@@ -1,0 +1,640 @@
+[
+    {
+        "name": "Betta Fish",
+        "primaryFish": true,
+        "compatible": [{
+            "name": "Guppies"
+        },
+        {
+            "name": "Corydora"
+        },
+        {
+            "name": "Catfish"
+        },
+        {
+            "name": "White Clouds"
+        },
+        {
+            "name": "Snail"
+        }
+    ],
+        "temp": "Warm",
+        "tips": "Also known as a 'Japanese Fighting Fish', they are well known for their bad attitude and tendancy to fight other fish of their own kind. They can actually live happily with other fish, as long as they're given enough space in the tank. RECOMMENDATION: The bigger the tank, the better with these guys"
+    },
+    {
+        "name": "Barbs",
+        "primaryFish": false,
+        "compatible": [{
+            "name": "Danios"
+        },
+        {
+            "name": "Catfish"
+        },
+        {
+            "name": "Tetras"
+        },
+        {
+            "name": "White clouds" 
+        },
+        {
+            "name": "Corydora"
+        },
+        {
+            "name": "Blue rams"
+        },
+        {
+            "name": "Dwarf Gouramis"
+        }   
+    ],
+        "temp": "Both",
+        "tips": "Barbs are a fairly aggressive breed of fish. If you're not careful of who you put them with, they will likely hunt and kill anything that isn't fast enough to dodge them. You're better off having them in a large group, or with a couple catfish and other small fish"
+    },
+    {
+        "name": "Danios",
+        "primaryFish": false,
+        "compatible": [{
+            "name": "Betta Fish"
+        },
+        {
+            "name": "Barbs"
+        },
+        {
+            "name": "Catfish"
+        },
+        {
+            "name": "Tetras"
+        },
+        {
+            "name": "Guppies"
+        },
+        {
+            "name": "White clouds"
+        },
+        {
+            "name": "Rasboras"
+        },
+        {
+            "name": "Corydora"
+        },
+        {
+            "name": "Blue rams"
+        },
+        {
+            "name": "Dwarf Gouramis"
+        },
+        {
+            "name": "Hatchet Fish"
+        },
+        {
+            "name": "Snail"
+        }
+    ],
+        "temp": "Both",
+        "tips": "Danios are a very common breed of fish, and great for first time aquarium keepers. The most common breed is the Zebra Danio, but there are a couple of exotic breeds you can find from special breeders. Very friendly fish to have a tank, and compatible with most other fish breeds"
+    },
+    {
+        "name": "Catfish",
+        "primaryFish": false,
+        "compatible": [{
+            "name": "Betta Fish"
+        },
+        {
+            "name": "Barbs"
+        },
+        {
+            "name": "Danios"
+        },
+        {
+            "name": "Goldfish"
+        },
+        {
+            "name": "Tetras"
+        },
+        {
+            "name": "Guppies"
+        },
+        {
+            "name": "Platys"
+        },
+        {
+            "name": "White clouds"
+        },
+        {
+            "name": "Rasboras"
+        },
+        {
+            "name": "Corydora"
+        },
+        {
+            "name": "Blue rams"
+        },
+        {
+            "name": "Dwarf Gouramis"
+        },
+        {
+            "name": "Hatchet Fish"
+        }
+    ],
+        "temp": "Cold",
+        "tips": "Catfish are excellent fish to have in a tank. Known for their catlike whiskers, they can be found scavenging across the bottom of a tank eating left over food and other debris. If you're looking for something to help control algae growth, these guys are perfect for you"
+    },
+    {
+        "name": "Goldfish",
+        "primaryFish": true,
+        "compatible": [{
+            "name": "Danios"
+        },
+        {
+            "name": "Catfish"
+        },
+        {
+            "name": "Guppies"
+        },
+        {
+            "name": "Platys"
+        },
+        {
+            "name": "Corydora"
+        },
+        {
+            "name": "Hatchet Fish"
+        },
+        {
+            "name": "Snail"
+        }
+    ],
+        "temp": "Cold",
+        "tips": "Goldfish are often known as the beginners fish, kept by people who are looking to get into the hobby. They can, however, be a fantastic hobby fish to have, and many expert fishkeepers keep goldfish that can reach sizes of up to 30cm. They come in many shapes and sizes, but have been known to eat smaller fish"
+    },
+    {
+        "name": "Tetras",
+        "primaryFish": false,
+        "compatible": [{
+            "name": "Barbs"
+        },
+        {
+            "name": "Danios"
+        },
+        {
+            "name": "White clouds"
+        },
+        {
+            "name": "Rasboras"
+        },
+        {
+            "name": "Corydora"
+        },
+        {
+            "name": "Blue rams"
+        },
+        {
+            "name": "Dwarf Gouramis"
+        },
+        {
+            "name": "Hatchet Fish"
+        },
+        {
+            "name": "Snail"
+        }
+    ],
+        "temp": "Both",
+        "tips": "Tetras are a very common fish breed, and can be fairly cheap. While rather plain on their own, they can look quite fantastic in larger schools. They are much happier when kept in schools of 6 or more, and come in many different shapes and sizes"
+    },
+    {
+        "name": "Red Cherry Shrimp",
+        "primaryFish": true,
+        "compatible": [
+        {
+            "name": "Danios"
+        },
+        {
+            "name": "Tetras"
+        },
+        {
+            "name": "White clouds"
+        },
+        {
+            "name": "Rasboras"
+        },
+        {
+            "name": "Hatchet Fish"
+        },
+        {
+            "name": "Snail"
+        }
+    ],
+        "temp": "Warm",
+        "tips": "Shrimp are a fantastic breed for anyone looking to get into fish breeding. They are very good scavengers, feeding off of leftover food and debris from the tank bottom. They aren't hostile to other breeds of fish, but are often prayed upon by others. If you wish to keep these guys with others, we recommend smaller fish breeds."
+    },
+    {
+        "name": "Guppies",
+        "primaryFish": false,
+        "compatible": [{
+            "name": "Betta Fish"
+        },
+        {
+            "name": "Danios"
+        },
+        {
+            "name": "Goldfish"
+        },
+        {
+            "name": "Tetras"
+        },
+        {
+            "name": "Red Cherry Shrimp"
+        },
+        {
+            "name": "Platys"
+        },
+        {
+            "name": "White clouds"
+        },
+        {
+            "name": "Rasboras"
+        },
+        {
+            "name": "Corydora"
+        },
+        {
+            "name": "Blue rams"
+        },
+        {
+            "name": "Dwarf Gouramis"
+        },
+        {
+            "name": "Snail"
+        }
+    ],
+        "temp": "Warm",
+        "tips": "Guppies are a great breed of fish for anyone who wants to try fish breeding out. They're beautiful to look at, and with some experimentation, you can breed all sorts of different coloured fish. However, something you will need to remember is that they WILL breed. Guppies are notorious for their out of control breeding."
+    },
+    {
+        "name": "Platys",
+        "primaryFish": false,
+        "compatible": [{
+            "name": "Betta Fish"
+        },
+        {
+            "name": "Danios"
+        },
+        {
+            "name": "Tetras"
+        },
+        {
+            "name": "Guppies"
+        },
+        {
+            "name": "White clouds"
+        },
+        {
+            "name": "Rasboras"
+        },
+        {
+            "name": "Corydora"
+        },
+        {
+            "name": "Blue rams"
+        },
+        {
+            "name": "Dwarf Gouramis"
+        },
+        {
+            "name": "Hatchet Fish"
+        },
+        {
+            "name": "Snail"
+        }
+    ],
+        "temp": "Warm",
+        "tips": "Platys are a great breed of fish for anyone who wants to try fish breeding out. They're beautiful to look at, and with some experimentation, you can breed all sorts of different coloured fish. However, something you will need to remember is that they WILL breed. Guppies are notorious for their out of control breeding."
+    },
+    {
+        "name": "White Clouds",
+        "primaryFish": false,
+        "compatible": [{
+            "name": "Betta Fish"
+        },
+        {
+            "name": "Barbs"
+        },
+        {
+            "name": "Danios"
+        },
+        {
+            "name": "Catfish"
+        },
+        {
+            "name": "Tetras"
+        },
+        {
+            "name": "Red Cherry Shrimp"
+        },
+        {
+            "name": "Guppies"
+        },
+        {
+            "name": "Platys"
+        },
+        {
+            "name": "Rasboras"
+        },
+        {
+            "name": "Corydora"
+        },
+        {
+            "name": "Blue rams"
+        },
+        {
+            "name": "Dwarf Gouramis"
+        },
+        {
+            "name": "Hatchet Fish"
+        },
+        {
+            "name": "Snail"
+        }
+    ],
+        "temp": "Both",
+        "tips": "White Clouds are a very small breed of fish, and are much more comfortable in large schools of 8 or more fish. They get along with most other fish breeds, however they are small enough to be eaten by anything larger than themselves. Great little fish for filling in any gaps in your tank"
+    },
+    {
+        "name": "Rasboras",
+        "primaryFish": false,
+        "compatible": [{
+            "name": "Betta Fish"
+        },
+        {
+            "name": "Barbs"
+        },
+        {
+            "name": "Danios"
+        },
+        {
+            "name": "Catfish"
+        },
+        {
+            "name": "Tetras"
+        },
+        {
+            "name": "Guppies"
+        },
+        {
+            "name": "Platys"
+        },
+        {
+            "name": "White Clouds"
+        },
+        {
+            "name": "Corydora"
+        },
+        {
+            "name": "Blue rams"
+        },
+        {
+            "name": "Dwarf Gouramis"
+        },
+        {
+            "name": "Hatchet Fish"
+        },
+        {
+            "name": "Snail"
+        }
+    ],
+        "temp": "Both",
+        "tips": "Rasboras are an easy breed to care for, and get along well with others. They are often much more comfortable when in larger schools, preferably with 6 or more of their kind to keep them company"
+    },
+    {
+        "name": "Corydora",
+        "primaryFish": false,
+        "compatible": [{
+            "name": "Betta Fish"
+        },
+        {
+            "name": "Barbs"
+        },
+        {
+            "name": "Danios"
+        },
+        {
+            "name": "Catfish"
+        },
+        {
+            "name": "Goldfish"
+        },
+        {
+            "name": "Tetras"
+        },
+        {
+            "name": "Guppies"
+        },
+        {
+            "name": "Platys"
+        },
+        {
+            "name": "White Clouds"
+        },
+        {
+            "name": "Rasboras"
+        },
+        {
+            "name": "Blue rams"
+        },
+        {
+            "name": "Dwarf Gouramis"
+        },
+        {
+            "name": "Hatchet Fish"
+        }
+    ],
+        "temp": "Warm",
+        "tips": "Corydoras, more often called corys, are fantastic tank cleaners, spending all their time eating debris from the bottom of the tank. They are nocturnal, so they require plenty of hiding places for the day, and watch out if you have snails, because corys LOVE to eat them"
+    },
+    {
+        "name": "Pea Puffer",
+        "primaryFish": true,
+        "compatible": [{
+            "name": ""
+        }],
+        "temp": "Warm",
+        "tips": "Pea puffers are very cool fish, but don't get along well with others. While they are known to sometimes get along with species bigger than themselves, it is often better to keep them in schools, rather than to mix and match"
+    },
+    {
+        "name": "Blue ram",
+        "primaryFish": true,
+        "compatible": [{
+            "name": "Betta Fish"
+        },
+        {
+            "name": "Danios"
+        },
+        {
+            "name": "Catfish"
+        },
+        {
+            "name": "Tetras"
+        },
+        {
+            "name": "Guppies"
+        },
+        {
+            "name": "Platys"
+        },
+        {
+            "name": "White Clouds"
+        },
+        {
+            "name": "Rasboras"
+        },
+        {
+            "name": "Corydora"
+        },
+        {
+            "name": "Hatchet Fish"
+        },
+        {
+            "name": "Snail"
+        }
+    ],
+        "temp": "Warm",
+        "tips": "Blue rams are a bit more on the expensive side, but they're a good choice for centrepiece fish if you want to have a couple. However, they are not recommended for beginnners, as they have very specific parameters to keep in check"
+    },
+    {
+        "name": "Dwarf Gourami",
+        "primaryFish": true,
+        "compatible": [{
+            "name": "Barbs"
+        },
+        {
+            "name": "Danios"
+        },
+        {
+            "name": "Catfish"
+        },
+        {
+            "name": "Tetras"
+        },
+        {
+            "name": "Guppies"
+        },
+        {
+            "name": "Platys"
+        },
+        {
+            "name": "White Clouds"
+        },
+        {
+            "name": "Rasboras"
+        },
+        {
+            "name": "Corydora"
+        },
+        {
+            "name": "Hatchet Fish"
+        },
+        {
+            "name": "Snail"
+        }
+    ],
+        "temp": "Warm",
+        "tips": "Dwarf Gouramis are a smaller version of their predecessors, and come in a very bright shade of red. They're a fun fish to have in a tank, and are more of an intermediate fish breed to care for"
+    },
+    {
+        "name": "Hatchet Fish",
+        "primaryFish": false,
+        "compatible": [{
+            "name": "Betta Fish"
+        },
+        {
+            "name": "Danios"
+        },
+        {
+            "name": "Catfish"
+        },
+        {
+            "name": "Goldfish"
+        },
+        {
+            "name": "Tetras"
+        },
+        {
+            "name": "Guppies"
+        },
+        {
+            "name": "Platys"
+        },
+        {
+            "name": "White Clouds"
+        },
+        {
+            "name": "Rasboras"
+        },
+        {
+            "name": "Corydora"
+        },
+        {
+            "name": "Blue rams"
+        },
+        {
+            "name": "Dwarf Gouramis"
+        },
+        {
+            "name": "Snail"
+        }
+    ],
+        "temp": "Both",
+        "tips": "Hatchet fish are very easy to care for, and go great in any tank setup. They get along well with most tank mates, and will help to fill that gap in your tanks eco-system"
+    },
+    {
+        "name": "Snail",
+        "primaryFish": false,
+        "compatible": [{
+            "name": "Betta Fish"
+        },
+        {
+            "name": "Barbs"
+        },
+        {
+            "name": "Danios"
+        },
+        {
+            "name": "Catfish"
+        },
+        {
+            "name": "Goldfish"
+        },
+        {
+            "name": "Tetras"
+        },
+        {
+            "name": "Red Cherry Shrimp"
+        },
+        {
+            "name": "Guppies"
+        },
+        {
+            "name": "Platys"
+        },
+        {
+            "name": "White Clouds"
+        },
+        {
+            "name": "Rasboras"
+        },
+        {
+            "name": "Corydora"
+        },
+        {
+            "name": "Blue rams"
+        },
+        {
+            "name": "Dwarf Gourami"
+        },
+        {
+            "name": "Hatchet Fish"
+        }
+    ],
+        "temp": "Both",
+        "tips": "Snails are excellent tank cleaners, and can come in a large variety of shapes and sizes. They get along well with almost all tank mates, but often multiply very quickly, even on their own"
+    }
+]
