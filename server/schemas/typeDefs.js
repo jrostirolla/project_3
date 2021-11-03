@@ -15,8 +15,7 @@ const typeDefs = gql`
         planted: Boolean!
         centrepiece: String
         fishAdditions: [ String ]
-        buildBy: String
-        created: Date
+        buildBy: ID!
     }
 
     type Fish {
@@ -40,7 +39,7 @@ const typeDefs = gql`
     type Mutation {
         addUser(username: String!, email: String!, password: String!): Auth
         login(email: String!, password: String!): Auth
-        newBuild(temp: String!, size: String!, planted: Boolean!, centrepiece: Sting, fishAdditions: [ String ]): Builder
+        newBuild(temp: String!, size: String!, planted: Boolean!, centrepiece: String, fishAdditions: [ String ]): Builder
     }
 `
 
