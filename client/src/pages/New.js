@@ -1,13 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import { useQuery } from '@apollo/client';
-
-import AdditionalFish from '../components/Additional';
-import Centre from  '../components/Centre';
-import Planted from '../components/Planted';
-import Size from '../components/Size';
-import Temperature from '../components/Temperature';
-import User from './User';
+import { useQuery, useMutation } from '@apollo/client';
 
 const New = () => {    
     const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -49,29 +42,6 @@ const New = () => {
             options: ['Barbs', 'Danios', 'Catfish', 'Tetras', 'Guppies', 'Platys', 'White Clouds', 'Rasboras', 'Corydoras', 'Hatchet Fish', 'Snail'],
         }
     ];
-
-    // const state = [
-    //     {
-    //         id: 1,
-    //         answer: '',
-    //     },
-    //     {
-    //         id: 2,
-    //         answer: '',
-    //     },
-    //     {
-    //         id: 3,
-    //         answer: '',
-    //     },
-    //     {
-    //         id: 4,
-    //         answer: '',
-    //     },
-    //     {
-    //         id: 5,
-    //         answer: '',
-    //     },
-    // ]
 
     let state = [
         {
@@ -122,7 +92,12 @@ const comp = (type) => {
     }
 
     function handleChangingQuestion() {
+        const nextQuestion = currentQuestion + 1
+        if (nextQuestion < questions.length) {
         setCurrentQuestion(prevQuestion => prevQuestion + 1);
+        } else {
+            console.log('end of quiz, display answers needed');
+        }
 
     };
 

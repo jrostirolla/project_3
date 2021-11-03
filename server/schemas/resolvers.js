@@ -34,7 +34,7 @@ const resolvers = {
                 throw new AuthenticationError('Password incorrect')
             }
 
-            const token = signToken(sign);
+            const token = signToken(user);
 
             return { token, user };
         },
