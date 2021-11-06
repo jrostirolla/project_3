@@ -1,9 +1,11 @@
 import React from 'react';
 import { useState } from 'react';
 import { useQuery, useMutation } from '@apollo/client';
+import { NEW_BUILD } from '../utils/mutations';
 
 const New = () => {    
     const [currentQuestion, setCurrentQuestion] = useState(0);
+    const [addAnswers, { loading, data, err }] = useMutation(NEW_BUILD);
 
     const questions = [
         {
@@ -43,75 +45,70 @@ const New = () => {
         }
     ];
 
-    let state = [
-        {
-            id: 1,
-            answer: ''
-        },
-        {
-            id: 2,
-            answer: ''
-        },
-        {
-            id: 3,
-            answer: ''
-        },
-        {
-            id: 4,
-            answer: ''
-        },
-        {
-            id: 5,
-            answer: ''
-        }
-    ]
+const comp = (question) => {
+        if (question.type === 'option') {    
+          return  <select>
+            {
+                question.options.map(el => <option value={el} key={el}> {el} </option>)
+            }
+            </select>
 
-const comp = (type) => {
-        if (questions[currentQuestion].type === 'options') {    
-    const cpMap = questions.options.map(buildQuestion);
-    
-    function buildQuestion(fish) {
-       return <option value={fish}> {fish} </option>
-    }
-
-        return <div>
-            <h2>{( questions[currentQuestion].question )}</h2>
-            <form>
-                <label>{( questions[currentQuestion].label )}</label>
-                    <select>
-                        {cpMap}
-                    </select>
-            </form>
-            </div>
-        } else if (type === 'text') {
+        } else if (question.type === 'text') {
             return <div>
-            <h2>{( currentQuestion.question )}</h2>
-            <input id='text-entry' type='text' placeholder={( currentQuestion.placeholder )}></input>
+            <input id='text-entry' type='text' placeholder={( question.placeholder )}></input>
             </div> 
         }
     }
 
-    function handleChangingQuestion() {
-        const nextQuestion = currentQuestion + 1
-        if (nextQuestion < questions.length) {
-        setCurrentQuestion(prevQuestion => prevQuestion + 1);
-        } else {
-            console.log('end of quiz, display answers needed');
+    const handleFormSubmit = async (event) => {
+        event.preventDefault();
+
+        try {
+            const { data } = await addAnswers({
+                variables: {
+                    temp: '',
+                    size: '',
+                    planted: '',
+                    centrepiece: '',
+                    fishAdditions: ''
+                }
+            })
+        } catch (err) {
+            console.log(err)
         }
 
     };
 
+    const styles = {
+        main: {
+            background: 'lightblue',
+            margin: 0,
+            padding: '10px',
+            textAlign: 'center',
+        }
+    }
+
     return (
         <main>
+        <div style={styles.main}>
             <div>
                 <h1>Fishtank Builder</h1>
                 <p><b>Struggling to find the proper build for your fishtank? You've come to the right place!</b></p>
                 <p><b>Answer the prompts below to build your fishtank design!</b></p>
-                <div>
-                    {questions[currentQuestion].question}
-                    {comp(questions[currentQuestion].type)}
-                    <button type='submit' value='submit' onClick={handleChangingQuestion}> Next </button>
-                </div>
+                        <div>
+                            {
+                                questions.map(question =>
+                                    {
+                                        return <div>
+                                        <h2>{( question.question )}</h2>
+                                            {comp(question)}
+                                        </div>
+                                    }
+                                )
+                            }
+                        </div>
+                    </div>
+                    <button type='submit' value='submit' onClick={handleFormSubmit}> Submit </button>
             </div>
         </main>
     )

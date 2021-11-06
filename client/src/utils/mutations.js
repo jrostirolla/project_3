@@ -31,20 +31,8 @@ export const NEW_BUILD = gql`
             temp
             size
             planted
-            centrepiece {
-                _id
-                name
-                compatible
-                temp
-                tips
-            }
-            fishAdditions {
-                _id
-                name
-                compatible
-                temp
-                tips
-            }
+            centrepiece
+            fishAdditions
             builtBy
         }
     }
