@@ -6,7 +6,7 @@ import Auth from '../../utils/auth';
 const styles = {
   headerStyle: {
     display: 'inline-flex',
-    background: 'blue',
+    background: 'orange',
     width: '100%',
     color: 'white'
   },
